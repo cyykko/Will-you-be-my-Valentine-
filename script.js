@@ -25,3 +25,8 @@ function handleNoClick() {
 function handleYesClick() {
     window.location.href = "yes_page.html";
 }
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(() => {
+    document.querySelector("audio").play()
+  }, 5000);
+}); 
